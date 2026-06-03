@@ -1,0 +1,17 @@
+[project]
+name = "kaggle-deep-learning-notes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "learntools>=0.0.20",
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.3",
+    "tensorflow>=2.21.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
